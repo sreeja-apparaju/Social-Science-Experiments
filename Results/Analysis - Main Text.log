@@ -1,0 +1,73 @@
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Significant Effect in Same Direction as in Original Study:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Replicated in Stage 1:              12 (57.1%)     CI = [ 34.1%, 80.2%]
+   Replicated in Stage 2:               2 ( 9.5%)     CI = [-10.2%, 50.2%]
+   Replication Rate Pooled:            13 (61.9%)     CI = [ 39.3%, 84.6%]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mean Standardized Effect Size:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Replication Studies:                     0.249     CI = [ 0.120, 0.378]
+   Original Studies:                        0.460     CI = [ 0.355, 0.564]
+
+   Wilcoxon Signed-Ranks Test:
+   ---------------------------
+      |z|-Value:                            3.667
+      p-Value:                              0.000
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mean Relative Effect Size:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   of all studies:                          46.2%     CI = [ 27.0%, 65.5%]
+   of those replicated:                     74.5%     CI = [ 60.1%, 88.9%]
+   of those not replicated:                  0.3%     CI = [-12.4%, 13.1%]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Number of studies considered being replicated according to ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Significant Effect:                 13 (61.9%)     CI = [ 39.3%, 84.6%]
+   Meta Analysis:                      16 (76.2%)     CI = [ 56.3%, 96.1%]
+   95% Prediction Intervals:           14 (66.7%)     CI = [ 44.7%, 88.7%]
+   Small Telescopes Approach:          12 (57.1%)     CI = [ 34.1%, 80.2%]
+   One-sided Default Bayes Factor:     13 (61.9%)     CI = [ 39.3%, 84.6%]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Survey and Prediction Markets:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Number of Participants:
+  ----------------------------------
+   Two-Outcome Market                 114
+   Three-Outcome Market                92
+
+  Mean Market/Survey Beliefs:
+  ----------------------------------
+   Markets in T2                       63.4%  [min, max] = [ 23.1%, 95.5%]
+                                                      CI = [ 53.7%, 73.0%]
+   Survey in T2                        60.6%  [min, max] = [ 27.8%, 81.5%]
+                                                      CI = [ 53.0%, 68.2%]
+
+  Spearman Correlations:
+  ----------------------------------
+   Markets - Survey                     0.845         CI = [ 65.2%, 93.6%]
+                                                       p =  0.000
+   Markets - Replication Outcomes       0.842         CI = [ 64.5%, 93.4%]
+                                                       p =  0.000
+   Survey - Replication Outcomes        0.761         CI = [ 49.1%, 89.8%]
+                                                       p =  0.000

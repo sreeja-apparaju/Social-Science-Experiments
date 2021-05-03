@@ -1,0 +1,230 @@
+{smcl}
+{com}{sf}{ul off}{res}
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mean Standardized Effect Size (Robustness Tests):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{col 4}Replication Studies:{col 45}0.252{col 55}CI = [ 0.123, 0.382]
+{col 4}Original Studies:{col 45}0.473{col 55}CI = [ 0.361, 0.586]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mean Relative Effect Size (Robustness Tests):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{col 4}of all studies:{col 45}45.7%{col 55}CI = [ 26.4%, 65.0%]
+{col 4}of those replicated:{col 45}73.7%{col 55}CI = [ 58.5%, 88.9%]
+{col 4}of those not replicated:{col 45} 0.1%{col 55}CI = [-12.4%, 12.7%]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Survey and Prediction Markets:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{col 3}Initial Sign-Ups:{col 39}397
+
+{col 3}Two-Outcome Treatment:
+{col 3}------------------------
+{col 4}Participants Survey{col 39}128 (32.2% of initial sign-ups)
+{col 4}Participants Markets{col 39}115 (89.8% of survey participants)
+{col 4}Active Traders in Each Market{col 39}[min,max] = [36,80]
+
+{col 3}Three-Outcome Treatment:
+{col 3}------------------------
+{col 4}Participants Survey{col 39}104 (26.2% of initial sign-ups)
+{col 4}Participants Markets{col 39} 92 (88.5% of survey participants)
+{col 4}Active Traders in Each Market{col 39}[min,max] = [18,68]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demographics of Survey/Market Participants:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{col 3}Position:
+{col 3}----------
+{col 4}Full Professor{col 39} 24 (11.7%)
+{col 4}Assoc. Prof./Lecturer{col 39} 23 (11.2%)
+{col 4}Post-Doc/Assist. Prof.{col 39} 72 (35.0%)
+{col 4}PhD Student{col 39} 72 (35.0%)
+{col 4}Professional (with PhD){col 39} 14 ( 6.8%)
+
+{col 3}Gender:
+{col 3}----------
+{col 4}Female{col 39} 39 (18.9%)
+{col 4}Male{col 39}164 (79.6%)
+{col 4}Other{col 39}  1 ( 0.5%)
+
+{col 3}Residence:
+{col 3}----------
+{col 4}Nothern America{col 39}105 (51.0%)
+{col 4}Europe{col 39} 85 (41.3%)
+
+{col 3}Research:
+{col 3}----------
+{col 4}Psychology{col 39}106 (51.5%)
+{col 4}Economics{col 39} 83 (40.3%)
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Prediction Markets/Surveys: Treatment 1 - Analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{col 3}Prediction Market Beliefs:{col 40}56.9% (mdn = 62.6%) 
+{col 40}[min, max] = [21.3%,79.9%]
+
+{col 3}Survey Beliefs:{col 40}48.9% (mdn = 49.6%) 
+{col 40}[min, max] = [19.0%,70.5%]
+
+
+{col 3}Market Beliefs ## Survey Beliefs
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.894 (0.000) 
+{col 4}Wilcoxon test (p-value):{col 40}3.076 (0.002) 
+
+{col 3}Market Beliefs ## Replication Outcome (S1)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.509 (0.019) 
+{col 4}Wilcoxon test (p-value):{col 40}0.156 (0.876) 
+
+{col 3}Survey Beliefs ## Replication Outcome (S1)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.540 (0.011) 
+{col 4}Wilcoxon test (p-value):{col 40}0.643 (0.520) 
+
+{col 3}Market Beliefs ## Replication Outcome (S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.777 (0.000) 
+
+{col 3}Survey Beliefs ## Replication Outcome (S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.696 (0.000) 
+
+{col 3}Market Beliefs ## Relative Effect Size
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.596 (0.004) 
+
+{col 3}Survey Beliefs ## Relative Effect Size
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.599 (0.004) 
+
+
+{col 3}Prediction Error
+{col 3}-----------------------------------------------------
+{col 4}Market Beliefs:{col 40}39.7 pp
+{col 4}Survey Beliefs:{col 40}42.3 pp
+{col 4}Wilcoxon test (p-value):{col 40}1.442 (0.149) 
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Prediction Markets/Surveys: Treatment 2 - Analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{col 3}Prediction Market Beliefs (S1):{col 40}45.5% (mdn = 46.0%) 
+{col 40}[min, max] = [14.8%,83.4%]
+
+{col 3}Prediction Market Beliefs (S2):{col 40}17.9% (mdn = 19.4%) 
+{col 40}[min, max] = [ 6.0%,31.3%]
+
+{col 3}Prediction Market Beliefs (S1+S2):{col 40}63.4% (mdn = 62.7%) 
+{col 40}[min, max] = [23.1%,95.5%]
+
+{col 3}Survey Beliefs (S1):{col 40}36.6% (mdn = 34.1%) 
+{col 40}[min, max] = [12.9%,54.4%]
+
+{col 3}Survey Beliefs (S2):{col 40}24.0% (mdn = 24.7%) 
+{col 40}[min, max] = [14.8%,29.7%]
+
+{col 3}Survey Beliefs (S1+S2):{col 40}60.6% (mdn = 60.3%) 
+{col 40}[min, max] = [27.8%,81.5%]
+
+
+{col 3}Market Beliefs (S1) ## Survey Beliefs (S1)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.860 (0.000) 
+{col 4}Wilcoxon test (p-value):{col 40}3.007 (0.003) 
+
+{col 3}Market Beliefs (S2) ## Survey Beliefs (S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.197 (0.391) 
+{col 4}Wilcoxon test (p-value):{col 40}2.937 (0.003) 
+
+{col 3}Market Beliefs (S1+S2) ## Survey Beliefs (S1+S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.845 (0.000) 
+{col 4}Wilcoxon test (p-value):{col 40}1.199 (0.230) 
+
+{col 3}Market Beliefs (S1) ## Replication Outcome (S1)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.429 (0.052) 
+{col 4}Wilcoxon test (p-value):{col 40}1.130 (0.259) 
+
+{col 3}Survey Beliefs (S1) ## Replication Outcome (S1)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.556 (0.009) 
+{col 4}Wilcoxon test (p-value):{col 40}2.450 (0.014) 
+
+{col 3}Market Beliefs (S2) ## Replication Outcome (S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.261 (0.466) 
+{col 4}Wilcoxon test (p-value):{col 40}0.866 (0.386) 
+
+{col 3}Survey Beliefs (S2) ## Replication Outcome (S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.696 (0.025) 
+{col 4}Wilcoxon test (p-value):{col 40}0.866 (0.386) 
+
+{col 3}Market Beliefs (S1+S2) ## Replication Outcome (S1+S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.842 (0.000) 
+{col 4}Wilcoxon test (p-value):{col 40}0.295 (0.768) 
+
+{col 3}Survey Beliefs (S1+S2) ## Replication Outcome (S1+S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.761 (0.000) 
+{col 4}Wilcoxon test (p-value):{col 40}0.261 (0.794) 
+
+
+{col 3}Prediction Error (S1)
+{col 3}-----------------------------------------------------
+{col 4}Market Beliefs (S1):{col 40}41.4 pp
+{col 4}Survey Beliefs (S1):{col 40}44.4 pp
+{col 4}Wilcoxon test (p-value):{col 40}0.643 (0.520) 
+
+{col 3}Prediction Error (S1+S2)
+{col 3}-----------------------------------------------------
+{col 4}Market Beliefs (S1+S2):{col 40}30.3 pp
+{col 4}Survey Beliefs (S1+S2):{col 40}34.8 pp
+{col 4}Wilcoxon test (p-value):{col 40}2.068 (0.039) 
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Prediction Markets/Surveys: Treatment 1 vs. Treatment 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{col 3}Market Beliefs (T1|S1) ## Market Beliefs (T2|S1)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.895 (0.000) 
+{col 4}Wilcoxon test (p-value):{col 40}3.667 (0.000) 
+
+{col 3}Survey Beliefs (T1|S1) ## Survey Beliefs (T2|S1)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.983 (0.000) 
+{col 4}Wilcoxon test (p-value):{col 40}4.015 (0.000) 
+
+{col 3}Market Beliefs (T1|S1) ## Market Beliefs (T2|S1+S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.890 (0.000) 
+
+{col 3}Survey Beliefs (T1|S1) ## Survey Beliefs (T2|S1+S2)
+{col 3}-----------------------------------------------------
+{col 4}Spearman's rho (p-value):{col 40}0.981 (0.000) 
+{smcl}
+{res}{sf}{ul off}

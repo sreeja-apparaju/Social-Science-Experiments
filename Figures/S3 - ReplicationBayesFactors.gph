@@ -1,0 +1,194 @@
+StataFileTM:00001:01000:LiveGPH:                       :
+00005:00004:
+*! classname: twowaygraph_g
+*! family: twoway
+*! command: twoway (                         scatter study bfR0_rp_rep,                                 msymbol(d)                                 msize(1.5)                                 mfcolor(" 68 118 133")                                 mlcolor(" 40  70  79")                                 mlwidth(vthin)                         ) (                         scatter study bfR0_rp_nrep,                                 msymbol(d)                                 msize(1.5)                                 mfcolor("252 192  96")                                 mlcolor("201 153  76")                                 mlwidth(vthin)                                                                 xaxis(1 2)                                 xtitle("", axis(1))                                 xtitle(                                         "Replication Bayes Factor",                                          axis(2)                                         size(2)                                         margin(t=2.5 b=0.5)                                 )                                 xscale(                                         range(0.002 500)                                          log                                 )                                 xlabel(                         0.005774  "{it:extreme H{subscript:0}}"                          0.018257  "{it:very strong H{subscript:0}}"                         0.057735  "{it:strong H{subscript:0}}"                         0.182574  "{it:moderate H{subscript:0}}"                         0.577350  "{it:anectodal H{subscript:0}}"                         1.732051  "{it:anectodal H{subscript:1}}"                         5.477226  "{it:moderate H{subscript:1}}"                         17.32051  "{it:strong H{subscript:1}}"                         54.77226  "{it:very strong H{subscript:1}}"                         173.2051  "{it:extreme H{subscript:1}}"                 ,                                         axis(1)                                         angle(90)                                         labsize(2)                                         labgap(vsmall)                                         noticks                                         grid                                         glwidth(vvvthin)                                         glcolor(gs15)                                         glpattern(solid)                                         nogmin nogmax                                 )                                 xlabel(                         0.0033 "{&le}1/300"                         0.0100 "1/100"                          0.0333 "1/30"                         0.1000 "1/10"                         0.3333 "1/3"                         1.0000 "1"                         3.0000 "3"                         10.000 "10"                         30.000 "30"                          100.00 "100"                         300.00 "{&ge}300"                 ,                                         axis(2)                                         labsize(1.8)                                         grid                                         glwidth(vvthin)                                         glcolor(gs13)                                         glpattern(solid)                                         nogmin nogmax                                         tlength(1)                                         tlwidth(vthin)                                         tlcolor(gs4)                                 )                                 xline(1,                                         lpattern(solid)                                         lwidth(vthin)                                 )                                 xline(300,                                         lpattern(dash)                                         lwidth(vthin)                                 )                                 xline(0.0033,                                         lpattern(dash)                                         lwidth(vthin)                                 )                                                                 ytitle("")                                 yscale(                                         reverse                                 )                                 ylabel(1 (1) 21,                                         valuelabels                                          labsize(1.8)                                         labgap(vsmall)                                         angle(0)                                         grid                                         glwidth(vvthin)                                         glcolor(gs14)                                         glpattern(solid)                                         noticks                                 )                                                                 plotregion(                                         margin(0 0 2 2)                                         lcolor(black)                                         lwidth(thin)                                 )                                 legend(                                         order(                                                 2 "Replication Bayes factor < 1"                                                 1 "Replication Bayes factor > 1"                                         )                                         rows(1) cols(2)                                         size(1.8)                                         bmargin(1 1 1 3)                                 )                                 xsize(20)                                 ysize(16.5)                                      )
+*! command_date: 25 Jun 2018
+*! command_time: 09:14:15
+*! datafile: ../../Data/Data Processed/D3 - ReplicationResults.dta
+*! datafile_date: 25 Jun 2018 09:10
+*! scheme: s1mono
+*! naturallywhite: 1
+*! xsize: 20
+*! ysize: 16.5
+*! end
+<BeginItem> serset Kfad9b48 
+<BeginSerset>
+<BeginSeries>
+.name = `"study"'
+.label = `"[SSRP] Study"'
+.format = `"%-40.0f"'
+.type.set numeric
+.min =  1
+.max =  21
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+.lab_offset = (.)
+.vlabs.Declare __D_1 = `"Ackerman et al. (2010), Science"'
+.vlabs.Declare __D_2 = `"Aviezer et al. (2012), Science"'
+.vlabs.Declare __D_3 = `"Balafoutas and Sutter (2012), Science"'
+.vlabs.Declare __D_4 = `"Derex et al. (2013), Nature"'
+.vlabs.Declare __D_5 = `"Duncan et al. (2012), Science"'
+.vlabs.Declare __D_6 = `"Gervais and Norenzayan (2012), Science"'
+.vlabs.Declare __D_7 = `"Gneezy et al. (2014), Science"'
+.vlabs.Declare __D_8 = `"Hauser et al. (2014), Nature"'
+.vlabs.Declare __D_9 = `"Janssen et al. (2010), Science"'
+.vlabs.Declare __D_10 = `"Karpicke and Blunt (2011), Science"'
+.vlabs.Declare __D_11 = `"Kidd and Castano (2013), Science"'
+.vlabs.Declare __D_12 = `"Kovacs et al. (2010), Science"'
+.vlabs.Declare __D_13 = `"Lee and Schwarz (2010), Science"'
+.vlabs.Declare __D_14 = `"Morewedge et al. (2010), Science"'
+.vlabs.Declare __D_15 = `"Nishi et al. (2015), Nature"'
+.vlabs.Declare __D_16 = `"Pyc and Rawson (2010), Science"'
+.vlabs.Declare __D_17 = `"Ramirez and Beilock (2011), Science"'
+.vlabs.Declare __D_18 = `"Rand et al. (2012), Nature"'
+.vlabs.Declare __D_19 = `"Shah et al. (2012), Science"'
+.vlabs.Declare __D_20 = `"Sparrow et al. (2011), Science"'
+.vlabs.Declare __D_21 = `"Wilson et al. (2014), Science"'
+<EndSeries>
+<BeginSeries>
+.name = `"bfR0_rp_rep"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  4.039999961853027
+.max =  300
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+<BeginSeries>
+.name = `"bfR0_rp_nrep"'
+.label = `""'
+.format = `"%9.0g"'
+.type.set numeric
+.min =  .0032999999821186
+.max =  .3100000023841858
+.median = (.)
+.pct25 = (.)
+.pct75 = (.)
+.categories = (.)
+<EndSeries>
+.weight_id = (.)
+<BeginSersetData>
+sersetreadwrite       ˛˛˛study rp                                                                                                                                              bfR0_rp_rep                                                                                                                                           bfR0_rp_nrep                                                                                                                                          %-40.0f                                                  %9.0g                                                    %9.0g f                                                        ?   ¿ı(@    ök?      5@     ¿r@   @
+◊”?  Ä?   R∏û>   @  dB     @@◊£à@     Ä@  ñC     †@  ñC     ¿@   è¬ı<  ‡@  ñC      A  ñC     A   –DX;   A∏=A     0A   
+◊#<  @A  ñC     PA   
+◊#<  `AöŸC     pA◊£¯@     ÄAÆGÅ@     àA   –DX;  êA   ÕÃÃ=  òA   
+◊#=  †A   è¬ı<  ®A  ñC   
+<EndSersetData>
+<EndSerset>
+<EndItem>
+<BeginItem> scheme Kfa3b6b8 
+.setscheme , scheme(s1mono) naturallywhite(1)
+<EndItem>
+<BeginItem> twowaygraph_g Kfadad18 <UseScheme> Kfa3b6b8
+.sersets[1] = .__Map.Kfad9b48.ref
+.insert (plotregion1 = .plotregion.new , style(scheme twoway) graph(`.objkey')) at 1 1
+.plotregion1.style.editstyle boxstyle( linestyle( color(black) width(thin))) editcopy
+.plotregion1.style.editstyle margin(0 0 2 2) editcopy
+.plotregion1.Declare plot1 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof study') xvariable(`.sersets[1].seriesof bfR0_rp_rep')    plotregion(`.plotregion1.objkey') style(scheme p1) 
+.plotregion1.plot1.style.editstyle marker(symbol(d)) marker(fillcolor(`" 68 118 133"')) marker(size(1.5)) marker(linestyle(color(`" 40  70  79"'))) marker(linestyle(width(vthin))) editcopy
+.plotregion1.Declare plot2 = .yxview.new , type(scatter) serset(`.sersets[1].objkey') yvariable(`.sersets[1].seriesof study') xvariable(`.sersets[1].seriesof bfR0_rp_nrep')    plotregion(`.plotregion1.objkey') style(scheme p2) 
+.plotregion1.plot2.style.editstyle marker(symbol(d)) marker(fillcolor(`"252 192  96"')) marker(size(1.5)) marker(linestyle(color(`"201 153  76"'))) marker(linestyle(width(vthin))) editcopy
+.plotregion1.clear_scales
+.plotregion1.reset_scales , noclear
+.n_views = 2
+.n_plotregions = 1
+.last_style = 2
+.x_scales = `" "1 2""'
+.y_scales = `" "1""'
+.create_axes 1 1 "9" "" 9
+.insert (legend = .legend_g.new, graphs(`.objkey') style(scheme)) below plotregion1 , ring(3) 
+.legend.style.editstyle box_alignment(S) editcopy
+.legend.style.editstyle labelstyle( size(1.8)) editcopy
+.legend.holes = ""
+.legend.style.editstyle  rows(1) cols(2) boxmargin(1 1 1 3) editcopy
+.legend.insert (note = .sized_textbox.new, mtextq(`""') style(scheme leg_note) ) below plotregion1 , ring(3) 
+.legend.note.style.editstyle box_alignment(SW) editcopy
+.legend.note.style.editstyle horizontal(left) editcopy
+.legend.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme leg_caption) ) below plotregion1 , ring(5) 
+.legend.caption.style.editstyle box_alignment(SW) editcopy
+.legend.caption.style.editstyle horizontal(left) editcopy
+.legend.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme leg_subtitle) ) above plotregion1 , ring(6) 
+.legend.subtitle.style.editstyle box_alignment(N) editcopy
+.legend.subtitle.style.editstyle horizontal(center) editcopy
+.legend.insert (title = .sized_textbox.new, mtextq(`""') style(scheme leg_title) ) above plotregion1 , ring(7) 
+.legend.title.style.editstyle box_alignment(N) editcopy
+.legend.title.style.editstyle horizontal(center) editcopy
+.legend.rebuild
+.legend.parse_order 2 "Replication Bayes factor < 1"                                                 1 "Replication Bayes factor > 1"
+.legend.repositionkeys
+.xaxis1.addmin .002
+.xaxis1.addmax 500
+.xaxis1.plotregion.xscale.set_transform log
+.xaxis1.plotregion.xscale.reset_from_axes
+.xaxis1.major.clear
+.xaxis1.major.add_ticks  .005774 `"{it:extreme H{subscript:0}}"' .018257 `"{it:very strong H{subscript:0}}"' .057735 `"{it:strong H{subscript:0}}"' .182574 `"{it:moderate H{subscript:0}}"' .57735 `"{it:anectodal H{subscript:0}}"' 1.732051 `"{it:anectodal H{subscript:1}}"' 5.477226 `"{it:moderate H{subscript:1}}"' 17.32051 `"{it:strong H{subscript:1}}"' 54.77226 `"{it:very strong H{subscript:1}}"' 173.2051 `"{it:extreme H{subscript:1}}"' ,  
+.xaxis1.major.set_default 0
+.xaxis1.reset_scale reinit
+.xaxis1.style.editstyle draw_major_grid(yes) editcopy
+.xaxis1.style.editstyle majorstyle( tickangle(90) tickstyle( textgap(vsmall) show_ticks(no)  textstyle( size(2))) gridstyle( draw_min(no) force_nomin(yes) draw_max(no) force_nomax(yes) linestyle( color(gs15) width(vvvthin) pattern(solid)))) editcopy
+.xaxis2.major.clear
+.xaxis2.major.add_ticks  .0033 `"{&le}1/300"' .01 `"1/100"' .0333 `"1/30"' .1 `"1/10"' .3333 `"1/3"' 1 `"1"' 3 `"3"' 10 `"10"' 30 `"30"' 100 `"100"' 300 `"{&ge}300"' ,  
+.xaxis2.major.set_default 0
+.xaxis2.reset_scale reinit
+.xaxis2.style.editstyle draw_major_grid(yes) editcopy
+.xaxis2.style.editstyle majorstyle( tickstyle( length(1) linestyle( width(vthin) color(gs4)) textstyle( size(1.8))) gridstyle( draw_min(no) force_nomin(yes) draw_max(no) force_nomax(yes) linestyle( color(gs13) width(vvthin) pattern(solid)))) editcopy
+.xaxis1.title.edit , mtextq(`""""')   replace
+.xaxis2.title.edit , mtextq(`""Replication Bayes Factor""')   replace
+.xaxis2.title.style.editstyle  size(2) margin(t=2.5 b=0.5) editcopy
+tempname glsty
+.`glsty' = .gridlinestyle.new, style(scheme)
+.`glsty'.editstyle  linestyle( width(vthin) pattern(solid)) editcopy
+.xaxis1.plotregion.declare_xyline .gridline_g.new 1 , ordinate(x) plotregion(`.xaxis1.plotregion.objkey') styleref(`glsty') 
+tempname glsty
+.`glsty' = .gridlinestyle.new, style(scheme)
+.`glsty'.editstyle  linestyle( width(vthin) pattern(dash)) editcopy
+.xaxis1.plotregion.declare_xyline .gridline_g.new 300 , ordinate(x) plotregion(`.xaxis1.plotregion.objkey') styleref(`glsty') 
+tempname glsty
+.`glsty' = .gridlinestyle.new, style(scheme)
+.`glsty'.editstyle  linestyle( width(vthin) pattern(dash)) editcopy
+.xaxis1.plotregion.declare_xyline .gridline_g.new .0033 , ordinate(x) plotregion(`.xaxis1.plotregion.objkey') styleref(`glsty') 
+.yaxis1.plotregion.yscale.reverse.set_true
+.yaxis1.major.clear
+.yaxis1.major.range_ticks 1 21 1
+.yaxis1.reset_scale reinit
+.yaxis1.style.editstyle draw_major_grid(yes) editcopy
+.yaxis1.style.editstyle majorstyle( tickangle(0) use_labels(yes) tickstyle( textgap(vsmall) show_ticks(no)  textstyle( size(1.8))) gridstyle( linestyle( color(gs14) width(vvthin) pattern(solid)))) editcopy
+.yaxis1.title.edit , mtextq(`""""')   replace
+.insert (r1title = .sized_textbox.new, mtextq(`""') style(scheme r1title) orientation(vertical)) rightof plotregion1 , ring(1) 
+.insert (r2title = .sized_textbox.new, mtextq(`""') style(scheme r2title) orientation(vertical)) rightof plotregion1 , ring(2) 
+.insert (l1title = .sized_textbox.new, mtextq(`""') style(scheme l1title) orientation(vertical)) leftof plotregion1 , ring(1) 
+.insert (l2title = .sized_textbox.new, mtextq(`""') style(scheme l2title) orientation(vertical)) leftof plotregion1 , ring(2) 
+.insert (t1title = .sized_textbox.new, mtextq(`""') style(scheme t1title) ) above plotregion1 , ring(1) 
+.insert (t2title = .sized_textbox.new, mtextq(`""') style(scheme t2title) ) above plotregion1 , ring(2) 
+.insert (b1title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(1) 
+.insert (b2title = .sized_textbox.new, mtextq(`""') style(scheme b1title) ) below plotregion1 , ring(2) 
+.insert (note = .sized_textbox.new, mtextq(`""') style(scheme note) ) below plotregion1 , ring(4) 
+.note.style.editstyle box_alignment(SW) editcopy
+.note.style.editstyle horizontal(left) editcopy
+.insert (caption = .sized_textbox.new, mtextq(`""') style(scheme caption) ) below plotregion1 , ring(5) 
+.caption.style.editstyle box_alignment(SW) editcopy
+.caption.style.editstyle horizontal(left) editcopy
+.insert (subtitle = .sized_textbox.new, mtextq(`""') style(scheme subtitle) ) above plotregion1 , ring(6) 
+.subtitle.style.editstyle box_alignment(N) editcopy
+.subtitle.style.editstyle horizontal(center) editcopy
+.insert (title = .sized_textbox.new, mtextq(`""') style(scheme title) ) above plotregion1 , ring(7) 
+.title.style.editstyle box_alignment(N) editcopy
+.title.style.editstyle horizontal(center) editcopy
+.insert (spacert = .spacer.new) above plotregion1 , ring(11)
+.insert (spacerb = .spacer.new) below plotregion1 , ring(11)
+.insert (spacerl = .spacer.new) leftof plotregion1 , ring(11)
+.insert (spacerr = .spacer.new) rightof plotregion1 , ring(11)
+.style.editstyle declared_xsize(20) editcopy
+.style.editstyle declared_ysize(16.5) editcopy
+.command = `"twoway (                         scatter study bfR0_rp_rep,                                 msymbol(d)                                 msize(1.5)                                 mfcolor(" 68 118 133")                                 mlcolor(" 40  70  79")                                 mlwidth(vthin)                         ) (                         scatter study bfR0_rp_nrep,                                 msymbol(d)                                 msize(1.5)                                 mfcolor("252 192  96")                                 mlcolor("201 153  76")                                 mlwidth(vthin)                                                                 xaxis(1 2)                                 xtitle("", axis(1))                                 xtitle(                                         "Replication Bayes Factor",                                          axis(2)                                         size(2)                                         margin(t=2.5 b=0.5)                                 )                                 xscale(                                         range(0.002 500)                                          log                                 )                                 xlabel(                         0.005774  "{it:extreme H{subscript:0}}"                          0.018257  "{it:very strong H{subscript:0}}"                         0.057735  "{it:strong H{subscript:0}}"                         0.182574  "{it:moderate H{subscript:0}}"                         0.577350  "{it:anectodal H{subscript:0}}"                         1.732051  "{it:anectodal H{subscript:1}}"                         5.477226  "{it:moderate H{subscript:1}}"                         17.32051  "{it:strong H{subscript:1}}"                         54.77226  "{it:very strong H{subscript:1}}"                         173.2051  "{it:extreme H{subscript:1}}"                 ,                                         axis(1)                                         angle(90)                                         labsize(2)                                         labgap(vsmall)                                         noticks                                         grid                                         glwidth(vvvthin)                                         glcolor(gs15)                                         glpattern(solid)                                         nogmin nogmax                                 )                                 xlabel(                         0.0033 "{&le}1/300"                         0.0100 "1/100"                          0.0333 "1/30"                         0.1000 "1/10"                         0.3333 "1/3"                         1.0000 "1"                         3.0000 "3"                         10.000 "10"                         30.000 "30"                          100.00 "100"                         300.00 "{&ge}300"                 ,                                         axis(2)                                         labsize(1.8)                                         grid                                         glwidth(vvthin)                                         glcolor(gs13)                                         glpattern(solid)                                         nogmin nogmax                                         tlength(1)                                         tlwidth(vthin)                                         tlcolor(gs4)                                 )                                 xline(1,                                         lpattern(solid)                                         lwidth(vthin)                                 )                                 xline(300,                                         lpattern(dash)                                         lwidth(vthin)                                 )                                 xline(0.0033,                                         lpattern(dash)                                         lwidth(vthin)                                 )                                                                 ytitle("")                                 yscale(                                         reverse                                 )                                 ylabel(1 (1) 21,                                         valuelabels                                          labsize(1.8)                                         labgap(vsmall)                                         angle(0)                                         grid                                         glwidth(vvthin)                                         glcolor(gs14)                                         glpattern(solid)                                         noticks                                 )                                                                 plotregion(                                         margin(0 0 2 2)                                         lcolor(black)                                         lwidth(thin)                                 )                                 legend(                                         order(                                                 2 "Replication Bayes factor < 1"                                                 1 "Replication Bayes factor > 1"                                         )                                         rows(1) cols(2)                                         size(1.8)                                         bmargin(1 1 1 3)                                 )                                 xsize(20)                                 ysize(16.5)                                      )"'
+.date = "25 Jun 2018"
+.time = "09:14:15"
+.dta_file = "../../Data/Data Processed/D3 - ReplicationResults.dta"
+.dta_date = "25 Jun 2018 09:10"
+<EndItem>

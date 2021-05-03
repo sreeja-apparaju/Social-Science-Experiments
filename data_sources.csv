@@ -1,0 +1,24 @@
+﻿data_files,data_source,known_missing,page,location,notes,provided,cited
+AssignmentRates.csv,,,2,\Data\Data Raw\Bayesian Analyses,,true,
+AssignmentRates.dta,,,2,\Data\Data Raw\Bayesian Analyses,,true,
+BayesFactors.csv,,,2,\Data\Data Raw\Bayesian Analyses,,true,true
+BayesFactors.dta,,,2,\Data\Data Raw\Bayesian Analyses,,true,true
+GroupSizes.csv,,,,\Data\Data Raw\Bayesian Analyses,,true,
+GroupSizes.dta,,,,\Data\Data Raw\Bayesian Analyses,,true,
+PosteriorAlpha.csv,,,,\Data\Data Raw\Bayesian Analyses,,true,
+PosteriorAlpha.dta,,,,\Data\Data Raw\Bayesian Analyses,,true,
+PosteriorPhi.csv,,,,\Data\Data Raw\Bayesian Analyses,,true,
+PosteriorPhi.dta,,,,\Data\Data Raw\Bayesian Analyses,,true,
+Comparison.csv,,,1,\Data\Data Raw\Comparison,,true,true
+m2 - Holdings.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+m2 - ParticipantIDs.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+m2 - Prices.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+m2 - Transactions.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+m2 - UserTransactions.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+m3 - Holdings.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+m3 - ParticipantIDs.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+m3 - Prices.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+m3 - Transactions.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+m3 - UserTransactions.txt,,,3,\Data\Data Raw\Prediction Markets,,true,true
+Data - Depersonalized.xlsx,,,3,\Data\Data Raw\Survey,,true,true
+,,,,,,,

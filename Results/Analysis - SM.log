@@ -1,0 +1,227 @@
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mean Standardized Effect Size (Robustness Tests):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Replication Studies:                     0.252     CI = [ 0.123, 0.382]
+   Original Studies:                        0.473     CI = [ 0.361, 0.586]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mean Relative Effect Size (Robustness Tests):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   of all studies:                          45.7%     CI = [ 26.4%, 65.0%]
+   of those replicated:                     73.7%     CI = [ 58.5%, 88.9%]
+   of those not replicated:                  0.1%     CI = [-12.4%, 12.7%]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Survey and Prediction Markets:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Initial Sign-Ups:                   397
+
+  Two-Outcome Treatment:
+  ------------------------
+   Participants Survey                128 (32.2% of initial sign-ups)
+   Participants Markets               115 (89.8% of survey participants)
+   Active Traders in Each Market      [min,max] = [36,80]
+
+  Three-Outcome Treatment:
+  ------------------------
+   Participants Survey                104 (26.2% of initial sign-ups)
+   Participants Markets                92 (88.5% of survey participants)
+   Active Traders in Each Market      [min,max] = [18,68]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Demographics of Survey/Market Participants:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Position:
+  ----------
+   Full Professor                      24 (11.7%)
+   Assoc. Prof./Lecturer               23 (11.2%)
+   Post-Doc/Assist. Prof.              72 (35.0%)
+   PhD Student                         72 (35.0%)
+   Professional (with PhD)             14 ( 6.8%)
+
+  Gender:
+  ----------
+   Female                              39 (18.9%)
+   Male                               164 (79.6%)
+   Other                                1 ( 0.5%)
+
+  Residence:
+  ----------
+   Nothern America                    105 (51.0%)
+   Europe                              85 (41.3%)
+
+  Research:
+  ----------
+   Psychology                         106 (51.5%)
+   Economics                           83 (40.3%)
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Prediction Markets/Surveys: Treatment 1 - Analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Prediction Market Beliefs:           56.9% (mdn = 62.6%) 
+                                       [min, max] = [21.3%,79.9%]
+
+  Survey Beliefs:                      48.9% (mdn = 49.6%) 
+                                       [min, max] = [19.0%,70.5%]
+
+
+  Market Beliefs ## Survey Beliefs
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.894 (0.000) 
+   Wilcoxon test (p-value):            3.076 (0.002) 
+
+  Market Beliefs ## Replication Outcome (S1)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.509 (0.019) 
+   Wilcoxon test (p-value):            0.156 (0.876) 
+
+  Survey Beliefs ## Replication Outcome (S1)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.540 (0.011) 
+   Wilcoxon test (p-value):            0.643 (0.520) 
+
+  Market Beliefs ## Replication Outcome (S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.777 (0.000) 
+
+  Survey Beliefs ## Replication Outcome (S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.696 (0.000) 
+
+  Market Beliefs ## Relative Effect Size
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.596 (0.004) 
+
+  Survey Beliefs ## Relative Effect Size
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.599 (0.004) 
+
+
+  Prediction Error
+  -----------------------------------------------------
+   Market Beliefs:                     39.7 pp
+   Survey Beliefs:                     42.3 pp
+   Wilcoxon test (p-value):            1.442 (0.149) 
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Prediction Markets/Surveys: Treatment 2 - Analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Prediction Market Beliefs (S1):      45.5% (mdn = 46.0%) 
+                                       [min, max] = [14.8%,83.4%]
+
+  Prediction Market Beliefs (S2):      17.9% (mdn = 19.4%) 
+                                       [min, max] = [ 6.0%,31.3%]
+
+  Prediction Market Beliefs (S1+S2):   63.4% (mdn = 62.7%) 
+                                       [min, max] = [23.1%,95.5%]
+
+  Survey Beliefs (S1):                 36.6% (mdn = 34.1%) 
+                                       [min, max] = [12.9%,54.4%]
+
+  Survey Beliefs (S2):                 24.0% (mdn = 24.7%) 
+                                       [min, max] = [14.8%,29.7%]
+
+  Survey Beliefs (S1+S2):              60.6% (mdn = 60.3%) 
+                                       [min, max] = [27.8%,81.5%]
+
+
+  Market Beliefs (S1) ## Survey Beliefs (S1)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.860 (0.000) 
+   Wilcoxon test (p-value):            3.007 (0.003) 
+
+  Market Beliefs (S2) ## Survey Beliefs (S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.197 (0.391) 
+   Wilcoxon test (p-value):            2.937 (0.003) 
+
+  Market Beliefs (S1+S2) ## Survey Beliefs (S1+S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.845 (0.000) 
+   Wilcoxon test (p-value):            1.199 (0.230) 
+
+  Market Beliefs (S1) ## Replication Outcome (S1)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.429 (0.052) 
+   Wilcoxon test (p-value):            1.130 (0.259) 
+
+  Survey Beliefs (S1) ## Replication Outcome (S1)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.556 (0.009) 
+   Wilcoxon test (p-value):            2.450 (0.014) 
+
+  Market Beliefs (S2) ## Replication Outcome (S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.261 (0.466) 
+   Wilcoxon test (p-value):            0.866 (0.386) 
+
+  Survey Beliefs (S2) ## Replication Outcome (S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.696 (0.025) 
+   Wilcoxon test (p-value):            0.866 (0.386) 
+
+  Market Beliefs (S1+S2) ## Replication Outcome (S1+S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.842 (0.000) 
+   Wilcoxon test (p-value):            0.295 (0.768) 
+
+  Survey Beliefs (S1+S2) ## Replication Outcome (S1+S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.761 (0.000) 
+   Wilcoxon test (p-value):            0.261 (0.794) 
+
+
+  Prediction Error (S1)
+  -----------------------------------------------------
+   Market Beliefs (S1):                41.4 pp
+   Survey Beliefs (S1):                44.4 pp
+   Wilcoxon test (p-value):            0.643 (0.520) 
+
+  Prediction Error (S1+S2)
+  -----------------------------------------------------
+   Market Beliefs (S1+S2):             30.3 pp
+   Survey Beliefs (S1+S2):             34.8 pp
+   Wilcoxon test (p-value):            2.068 (0.039) 
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Prediction Markets/Surveys: Treatment 1 vs. Treatment 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Market Beliefs (T1|S1) ## Market Beliefs (T2|S1)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.895 (0.000) 
+   Wilcoxon test (p-value):            3.667 (0.000) 
+
+  Survey Beliefs (T1|S1) ## Survey Beliefs (T2|S1)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.983 (0.000) 
+   Wilcoxon test (p-value):            4.015 (0.000) 
+
+  Market Beliefs (T1|S1) ## Market Beliefs (T2|S1+S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.890 (0.000) 
+
+  Survey Beliefs (T1|S1) ## Survey Beliefs (T2|S1+S2)
+  -----------------------------------------------------
+   Spearman's rho (p-value):           0.981 (0.000) 

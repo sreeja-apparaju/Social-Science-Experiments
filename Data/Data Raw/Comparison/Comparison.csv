@@ -1,0 +1,9 @@
+study,order,measure,e,se
+eerp,1,replicated p < 0.05,0.6111111,0.1149044
+eerp,2,relative effect size,0.6566517,0.1369838
+eerp,3,market beliefs,0.751438,0.0258624
+eerp,4,survey beliefs,0.7108935,0.0221474
+rpp,1,replicated p < 0.05,0.3608247,0.048761
+rpp,2,relative effect size,0.444977,0.053846
+rpp,3,market beliefs,0.5506432,0.0311529
+rpp,4,survey beliefs,0.5373402,0.0160376
